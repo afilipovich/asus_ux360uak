@@ -2,7 +2,8 @@
 
 """Tweak cooling profile to keep cooling fan quiet when laptop is idle.
 
-Do this by rewriting thermal tipping points in Embedded Controller memory.
+Do this by rewriting thermal tipping points in Embedded Controller memory via ACPI.
+Requires "acpi_call" kernel module to be loaded.
 """
 
 import logging as log
